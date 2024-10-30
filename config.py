@@ -21,7 +21,7 @@ FORCE_SUB = os.environ.get("FORCE_SUB", "targetallcourse")
 
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")     
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://Chenaram112:Chenaram@cluster0.shoit.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
